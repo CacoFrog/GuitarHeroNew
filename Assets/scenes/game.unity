@@ -20,7 +20,7 @@ RenderSettings:
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientLight: {r: .49253732, g: .49253732, b: .49253732, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 16522f49031ff414abdf1f83f1b6a36c, type: 2}
   m_HaloStrength: .5
   m_FlareStrength: 1
   m_HaloTexture: {fileID: 0}
@@ -441,7 +441,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1115682601}
   m_GameObject: {fileID: 480866571}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3a0e16bf61c41a4dab563813a7a5903, type: 3}
   m_Name: 
@@ -559,7 +559,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1115682601}
   m_GameObject: {fileID: 487693784}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3a0e16bf61c41a4dab563813a7a5903, type: 3}
   m_Name: 
@@ -814,7 +814,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &831673719
 Transform:
   m_ObjectHideFlags: 0
@@ -963,7 +963,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1115682601}
   m_GameObject: {fileID: 918215917}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3a0e16bf61c41a4dab563813a7a5903, type: 3}
   m_Name: 
@@ -1165,6 +1165,22 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b40d2c90e05bb4262a4649db11b3b4c6, type: 2}
+    - target: {fileID: 11400004, guid: 836f3952ca2783d4e8d9a8a78d542aa5, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 836f3952ca2783d4e8d9a8a78d542aa5, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 836f3952ca2783d4e8d9a8a78d542aa5, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 836f3952ca2783d4e8d9a8a78d542aa5, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 836f3952ca2783d4e8d9a8a78d542aa5, type: 2}
   m_RootGameObject: {fileID: 452160810}
@@ -1249,7 +1265,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1115682601}
   m_GameObject: {fileID: 1132685143}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3a0e16bf61c41a4dab563813a7a5903, type: 3}
   m_Name: 
