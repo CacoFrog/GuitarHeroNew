@@ -34,6 +34,7 @@ public class Music : MonoBehaviour {
 		if( note != null && notes[indexNote] <= origins.Length && notes[indexNote] != 0 && indexNote != lastIndexNote )
 		{
 			GameObject go = Instantiate(note,origins[ notes[indexNote] - 1 ].position,origins[notes[indexNote] - 1].rotation) as GameObject;
+			go.SendMessage("LetsGo",SendMessageOptions.DontRequireReceiver);
 		}
 		
 		lastIndexNote = indexNote;
