@@ -20,11 +20,20 @@ public class Music : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+		
+		
 		indexNote = Mathf.FloorToInt( (Time.time - startTime) / (fps/1000) );
 		
-		if( note != null && notes[indexNote] <= origins.Length && indexNote != lastIndexNote )
+		if( indexNote >= notes.Length )
 		{
-			GameObject go = Instantiate(note,origins[notes[indexNote]].position,origins[notes[indexNote]].rotation) as GameObject;
+			indexNote = 0;
+			startTime = Time.time;
+		}
+		
+		Debug.Log ("INDEX - "+indexNote);
+		if( note != null && notes[indexNote] <= origins.Length && notes[indexNote] != 0 && indexNote != lastIndexNote )
+		{
+			GameObject go = Instantiate(note,origins[ notes[indexNote] - 1 ].position,origins[notes[indexNote] - 1].rotation) as GameObject;
 		}
 		
 		lastIndexNote = indexNote;
