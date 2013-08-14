@@ -720,7 +720,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 66620de38ce195a4bb55a010f8e9adad, type: 2}
+  - {fileID: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -3697,6 +3697,10 @@ Prefab:
     - target: {fileID: 100000, guid: 759622ff5c5479241a7f82041164cfc7, type: 2}
       propertyPath: m_Name
       value: Pista amarela
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 759622ff5c5479241a7f82041164cfc7, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 759622ff5c5479241a7f82041164cfc7, type: 2}
